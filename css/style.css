@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.contact-card {
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 15px;
+  transition: 0.3s;
   border: 1px solid #2a2a2a;
 }
 
