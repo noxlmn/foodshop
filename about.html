@@ -3,85 +3,248 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | A Unique Food Supply</title>
+  <title>About Us | A Unique Food Supply</title>
+  <meta name="description" content="Learn about A Unique Food Supply — our story, our chefs, and our commitment to bringing restaurant-quality dining to your location.">
 
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-
 <body>
 
-<header>
-  <nav class="navbar">
+  <header id="header">
+    <nav class="navbar">
+      <div class="logo-section">
+        <a href="index.html" class="logo">
+          <i class="fas fa-fire-flame-curved"></i>
+          <span>A Unique Food Supply</span>
+        </a>
+      </div>
+      <div class="nav-toggle" id="navToggle">
+        <span></span><span></span><span></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" class="nav-cta">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <h1 class="logo">A Unique Food Supply</h1>
-
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html" class="active">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="menu.html">Menu</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-
-  </nav>
-</header>
-
-<section class="page-banner">
-  <h2>About Us</h2>
-</section>
-
-<section class="container page-content">
-
-  <div class="about-content">
-
-    <span class="section-subtitle">
-      OUR STORY
-    </span>
-
-    <h2>
-      Premium Food Experiences Since Day One
-    </h2>
-
-    <p>
-      A Unique Food Supply delivers premium catering and food
-      supply solutions for weddings, corporate events,
-      office meals, and luxury private gatherings.
-    </p>
-
-    <p>
-      Our team focuses on fresh ingredients, elegant presentation,
-      and exceptional customer service to create unforgettable experiences.
-    </p>
-
-  </div>
-
-</section>
-
-<footer>
-
-  <div class="footer-content">
-
-    <h3>A Unique Food Supply</h3>
-
-    <p>Premium Catering & Food Supply Services</p>
-
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
-      <a href="menu.html">Menu</a>
-      <a href="contact.html">Contact</a>
+  <!-- PAGE BANNER -->
+  <section class="page-banner about-banner">
+    <div class="page-banner-overlay">
+      <span class="page-tag">Our Story</span>
+      <h1>About A Unique Food Supply</h1>
+      <p>Bringing the kitchen to you since 2011</p>
     </div>
+  </section>
 
-    <p class="copyright">
-      © 2026 A Unique Food Supply
-    </p>
+  <!-- STORY SECTION -->
+  <section class="about-story">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-image">
+          <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=800&auto=format&fit=crop" alt="Chef cooking">
+          <div class="story-float-card">
+            <span class="float-num">15+</span>
+            <span class="float-text">Years of Excellence</span>
+          </div>
+        </div>
+        <div class="story-content">
+          <span class="section-tag">Our Story</span>
+          <h2>From a Food Truck to Your Front Door</h2>
+          <p>A Unique Food Supply began in 2011 when Chef Marcus Rivera started serving gourmet tacos from a converted food truck in downtown San Francisco. What set him apart wasn't just the food — it was the experience. He cooked everything fresh, right in front of his customers.</p>
+          <p>Word spread. Soon, clients were asking him to bring that same live-cooking magic to their weddings, corporate events, and private parties. By 2015, we had grown into a full-service catering company with a team of 15 professional chefs, each specializing in different cuisines.</p>
+          <p>Today, we serve over 150 events per year across California, Nevada, and Arizona. Whether you want us to cook live at your venue or deliver a perfectly prepared feast, we bring the same passion, precision, and freshness to every plate.</p>
+          <div class="story-signature">
+            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Marcus Rivera">
+            <div>
+              <h4>Marcus Rivera</h4>
+              <span>Founder & Head Chef</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  </div>
+  <!-- MISSION & VALUES -->
+  <section class="mission-section">
+    <div class="container">
+      <div class="mission-grid">
+        <div class="mission-card">
+          <div class="mission-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Our Mission</h3>
+          <p>To transform every event into an unforgettable culinary experience by bringing fresh, restaurant-quality food directly to our clients' locations — cooked with passion and served with excellence.</p>
+        </div>
+        <div class="mission-card">
+          <div class="mission-icon"><i class="fas fa-eye"></i></div>
+          <h3>Our Vision</h3>
+          <p>To become the most trusted name in on-site catering across the West Coast, known for innovation, quality, and the personal touch that makes every event feel special.</p>
+        </div>
+        <div class="mission-card">
+          <div class="mission-icon"><i class="fas fa-gem"></i></div>
+          <h3>Our Values</h3>
+          <p>Freshness above all. Customization for every client. Punctuality you can count on. And a genuine love for food that shows in every dish we create.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</footer>
+  <!-- TEAM SECTION -->
+  <section class="team-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">The Team</span>
+        <h2>Meet Our Chefs</h2>
+        <p>Passionate professionals who bring flavor to life</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-img">
+            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Marcus Rivera">
+            <div class="team-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Marcus Rivera</h3>
+            <span class="team-role">Founder & Head Chef</span>
+            <p>Le Cordon Bleu graduate with 20 years of experience. Specializes in Mediterranean and Latin fusion cuisine.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-img">
+            <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Elena Vasquez">
+            <div class="team-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Elena Vasquez</h3>
+            <span class="team-role">Executive Sous Chef</span>
+            <p>Former pastry chef at The French Laundry. Expert in desserts, baking, and plated fine dining experiences.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-img">
+            <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="David Kim">
+            <div class="team-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>David Kim</h3>
+            <span class="team-role">Asian Cuisine Specialist</span>
+            <p>Trained in Tokyo and Seoul. Masters sushi, ramen, Korean BBQ, and modern Asian fusion dishes.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-img">
+            <img src="https://randomuser.me/api/portraits/women/56.jpg" alt="Amara Okafor">
+            <div class="team-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Amara Okafor</h3>
+            <span class="team-role">BBQ & Grill Master</span>
+            <p>Competition BBQ champion. Brings authentic Southern BBQ, smoked meats, and live grill stations to any event.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<script src="./js/main.js"></script>
+  <!-- STATS -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-num" data-target="850">0</span>
+          <span class="stat-label">Events Catered</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="15">0</span>
+          <span class="stat-label">Expert Chefs</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="50">0</span>
+          <span class="stat-label">Cuisine Types</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="12000">0</span>
+          <span class="stat-label">Happy Guests</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="footer-logo">
+              <i class="fas fa-fire-flame-curved"></i>
+              <span>A Unique Food Supply</span>
+            </a>
+            <p>Premium on-site catering and gourmet food delivery. We bring the kitchen to you.</p>
+            <div class="footer-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="footer-links-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="services.html">On-Site Cooking</a></li>
+              <li><a href="services.html">Gourmet Delivery</a></li>
+              <li><a href="services.html">Wedding Catering</a></li>
+              <li><a href="services.html">Corporate Events</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <ul>
+              <li><i class="fas fa-phone"></i> (555) 234-5678</li>
+              <li><i class="fas fa-envelope"></i> hello@uniquefoodsupply.com</li>
+              <li><i class="fas fa-location-dot"></i> 1247 Culinary Ave, San Francisco, CA 94102</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 A Unique Food Supply. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
 </body>
 </html>

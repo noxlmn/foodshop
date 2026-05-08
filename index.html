@@ -1,212 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Unique Food Supply | Premium On-Site Catering</title>
+  <meta name="description" content="Premium on-site catering and food supply services. We cook at your location or deliver freshly prepared meals for weddings, corporate events, and private gatherings.">
 
-  <title>A Unique Food Supply</title>
-
-  <link rel="stylesheet" href="./css/style.css" />
-
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-
 <body>
 
   <!-- NAVBAR -->
-  <header>
+  <header id="header">
     <nav class="navbar">
-
       <div class="logo-section">
-        <h1 class="logo">A Unique Food Supply</h1>
+        <a href="index.html" class="logo">
+          <i class="fas fa-fire-flame-curved"></i>
+          <span>A Unique Food Supply</span>
+        </a>
       </div>
 
-      <ul class="nav-links">
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="menu.html">Menu</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="nav-cta">Book Now</a></li>
       </ul>
-
     </nav>
   </header>
 
   <!-- HERO -->
   <section class="hero">
-
+    <div class="hero-bg"></div>
     <div class="hero-overlay">
-
-      <span class="hero-tag">
-        PREMIUM CATERING SERVICES
-      </span>
-
-      <h2>
-        Fresh Catering <br>
-        For Every Occasion
-      </h2>
-
+      <div class="hero-badge">
+        <i class="fas fa-star"></i>
+        <span>Premium On-Site Catering</span>
+      </div>
+      <h1>
+        We Cook at Your<br>
+        <span class="highlight">Location</span>
+      </h1>
       <p>
-        Professional catering and food supply services for weddings,
-        corporate events, birthdays, office meals, and luxury gatherings.
+        From intimate dinners to grand celebrations — our chefs arrive at your venue 
+        with fresh ingredients and professional equipment. You choose: live cooking experience 
+        or freshly delivered gourmet meals.
       </p>
-
       <div class="hero-buttons">
         <a href="contact.html" class="btn-primary">
-          Book Catering
+          <i class="fas fa-calendar-check"></i>
+          Book Your Event
         </a>
-
-        <a href="menu.html" class="btn-secondary">
-          View Menu
+        <a href="services.html" class="btn-secondary">
+          <i class="fas fa-play"></i>
+          How It Works
         </a>
       </div>
-
+      <div class="hero-stats">
+        <div class="h-stat">
+          <span class="h-num">850+</span>
+          <span class="h-label">Events Catered</span>
+        </div>
+        <div class="h-stat">
+          <span class="h-num">15+</span>
+          <span class="h-label">Expert Chefs</span>
+        </div>
+        <div class="h-stat">
+          <span class="h-num">4.9</span>
+          <span class="h-label">Client Rating</span>
+        </div>
+      </div>
     </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
 
+  <!-- HOW IT WORKS -->
+  <section class="process-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Process</span>
+        <h2>How It Works</h2>
+        <p>Simple, seamless, and completely tailored to your needs</p>
+      </div>
+      <div class="process-grid">
+        <div class="process-card">
+          <div class="process-num">01</div>
+          <div class="process-icon"><i class="fas fa-comments"></i></div>
+          <h3>Share Your Vision</h3>
+          <p>Tell us your event type, guest count, dietary preferences, and desired cuisine style.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">02</div>
+          <div class="process-icon"><i class="fas fa-clipboard-list"></i></div>
+          <h3>Custom Menu Plan</h3>
+          <p>We design a bespoke menu with pricing. Choose on-site cooking or pre-cooked delivery.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">03</div>
+          <div class="process-icon"><i class="fas fa-truck"></i></div>
+          <h3>We Arrive & Setup</h3>
+          <p>Our team brings fresh ingredients, professional equipment, and sets up at your venue.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">04</div>
+          <div class="process-icon"><i class="fas fa-utensils"></i></div>
+          <h3>Live Cooking / Serve</h3>
+          <p>Chefs cook fresh on-site or we serve pre-prepared gourmet meals — your choice.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES PREVIEW -->
+  <section class="services-preview">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2>Our Services</h2>
+        <p>Flexible catering solutions for every occasion</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=800&auto=format&fit=crop" alt="On-Site Cooking">
+            <div class="service-badge">Most Popular</div>
+          </div>
+          <div class="service-content">
+            <div class="service-icon"><i class="fas fa-fire-burner"></i></div>
+            <h3>On-Site Live Cooking</h3>
+            <p>Our chefs cook fresh at your venue. Perfect for weddings, corporate events, and private parties where you want the full culinary experience.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Fresh ingredients cooked live</li>
+              <li><i class="fas fa-check"></i> Interactive chef stations</li>
+              <li><i class="fas fa-check"></i> Customizable on the spot</li>
+            </ul>
+            <a href="services.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=800&auto=format&fit=crop" alt="Gourmet Delivery">
+          </div>
+          <div class="service-content">
+            <div class="service-icon"><i class="fas fa-box-open"></i></div>
+            <h3>Gourmet Food Delivery</h3>
+            <p>Pre-cooked meals delivered hot and ready to serve. Ideal for office lunches, small gatherings, or when you prefer hassle-free dining.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Hot & ready to serve</li>
+              <li><i class="fas fa-check"></i> Elegant presentation</li>
+              <li><i class="fas fa-check"></i> Timed delivery guaranteed</li>
+            </ul>
+            <a href="services.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=800&auto=format&fit=crop" alt="Hybrid Service">
+          </div>
+          <div class="service-content">
+            <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+            <h3>Hybrid Experience</h3>
+            <p>Combine live cooking stations with pre-prepared courses. The best of both worlds for larger events with diverse guest preferences.</p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Live + pre-cooked combo</li>
+              <li><i class="fas fa-check"></i> Multi-course experiences</li>
+              <li><i class="fas fa-check"></i> Flexible service style</li>
+            </ul>
+            <a href="services.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- FEATURES -->
-  <section class="features container">
-
-    <div class="card">
-      <div class="card-icon">🍽️</div>
-
-      <h3>Luxury Catering</h3>
-
-      <p>
-        Elegant food experiences for weddings, parties,
-        and premium events.
-      </p>
+  <section class="features-section">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+          <h3>Fresh Ingredients</h3>
+          <p>We source locally from organic farms and premium suppliers. Every ingredient is hand-selected for quality and freshness.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-utensils"></i></div>
+          <h3>Expert Chefs</h3>
+          <p>Our team includes 5-star hotel veterans and culinary school graduates with 10+ years of experience each.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-sliders"></i></div>
+          <h3>Fully Customizable</h3>
+          <p>Any cuisine, any dietary requirement, any event size. We adapt our menu and service to your exact specifications.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-clock"></i></div>
+          <h3>Punctual Service</h3>
+          <p>We arrive 2 hours early for setup. Your food is ready exactly when you need it — never late, never rushed.</p>
+        </div>
+      </div>
     </div>
-
-    <div class="card">
-      <div class="card-icon">🏢</div>
-
-      <h3>Corporate Meals</h3>
-
-      <p>
-        Reliable meal supply for businesses,
-        offices, and professional gatherings.
-      </p>
-    </div>
-
-    <div class="card">
-      <div class="card-icon">🎉</div>
-
-      <h3>Custom Packages</h3>
-
-      <p>
-        Flexible food packages tailored to your
-        budget and guest count.
-      </p>
-    </div>
-
   </section>
 
-  <!-- ABOUT -->
-  <section class="about-preview container">
-
-    <div class="about-content">
-
-      <span class="section-subtitle">
-        WHY CHOOSE US
-      </span>
-
-      <h2>
-        We Deliver Memorable Food Experiences
-      </h2>
-
-      <p>
-        A Unique Food Supply combines premium ingredients,
-        professional preparation, and reliable service
-        to create unforgettable catering experiences.
-      </p>
-
-      <a href="about.html" class="btn-primary">
-        Learn More
-      </a>
-
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Testimonials</span>
+        <h2>What Clients Say</h2>
+      </div>
+      <div class="testimonials-slider" id="testimonialSlider">
+        <div class="testimonial-card active">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"They cooked an entire 5-course meal at our wedding venue. The live pasta station was the highlight of the night. Guests are still talking about it 6 months later!"</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Mitchell">
+            <div>
+              <h4>Sarah Mitchell</h4>
+              <span>Wedding Reception, Chicago</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Booked them for our quarterly corporate lunch. The Mediterranean buffet was delivered perfectly on time, beautifully presented, and absolutely delicious. Our team loved it."</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="James Rodriguez">
+            <div>
+              <h4>James Rodriguez</h4>
+              <span>TechCorp Inc., San Francisco</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-stroke"></i>
+          </div>
+          <p class="testimonial-text">"For my 50th birthday, they set up a full outdoor BBQ station in my backyard. The brisket and grilled seafood were restaurant-quality. Professional team, zero hassle."</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Robert Chen">
+            <div>
+              <h4>Robert Chen</h4>
+              <span>Private Party, Austin</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-dots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+      </div>
     </div>
-
-  </section>
-
-  <!-- STATS -->
-  <section class="stats-section">
-
-    <div class="stats-container">
-
-      <div class="stat-box">
-        <h3>500+</h3>
-        <p>Events Served</p>
-      </div>
-
-      <div class="stat-box">
-        <h3>1000+</h3>
-        <p>Happy Customers</p>
-      </div>
-
-      <div class="stat-box">
-        <h3>10+</h3>
-        <p>Years Experience</p>
-      </div>
-
-    </div>
-
   </section>
 
   <!-- CTA -->
   <section class="cta-section">
-
+    <div class="cta-bg"></div>
     <div class="cta-content">
-
-      <h2>
-        Ready To Book Your Event?
-      </h2>
-
-      <p>
-        Let us provide a premium catering experience
-        for your next special occasion.
-      </p>
-
-      <a href="contact.html" class="btn-primary">
-        Contact Us
-      </a>
-
+      <h2>Ready to Create Something Delicious?</h2>
+      <p>Whether you want a live cooking show at your event or a seamless gourmet delivery, we've got you covered. Let's plan your perfect menu.</p>
+      <div class="cta-buttons">
+        <a href="contact.html" class="btn-primary btn-large">
+          <i class="fas fa-phone"></i>
+          Call Us: (555) 234-5678
+        </a>
+        <a href="contact.html" class="btn-secondary btn-large">
+          <i class="fas fa-envelope"></i>
+          Request a Quote
+        </a>
+      </div>
     </div>
-
   </section>
 
   <!-- FOOTER -->
   <footer>
-
-    <div class="footer-content">
-
-      <h3>A Unique Food Supply</h3>
-
-      <p>
-        Premium Catering & Food Supply Services
-      </p>
-
-      <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact</a>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="footer-logo">
+              <i class="fas fa-fire-flame-curved"></i>
+              <span>A Unique Food Supply</span>
+            </a>
+            <p>Premium on-site catering and gourmet food delivery. We bring the kitchen to you — fresh, professional, unforgettable.</p>
+            <div class="footer-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-yelp"></i></a>
+            </div>
+          </div>
+          <div class="footer-links-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="services.html">On-Site Cooking</a></li>
+              <li><a href="services.html">Gourmet Delivery</a></li>
+              <li><a href="services.html">Wedding Catering</a></li>
+              <li><a href="services.html">Corporate Events</a></li>
+              <li><a href="services.html">Private Parties</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <ul>
+              <li><i class="fas fa-phone"></i> (555) 234-5678</li>
+              <li><i class="fas fa-envelope"></i> hello@uniquefoodsupply.com</li>
+              <li><i class="fas fa-location-dot"></i> 1247 Culinary Ave, Suite 300<br>San Francisco, CA 94102</li>
+              <li><i class="fas fa-clock"></i> Mon - Sat: 7AM - 10PM</li>
+            </ul>
+          </div>
+        </div>
       </div>
-
-      <p class="copyright">
-        © 2026 A Unique Food Supply. All rights reserved.
-      </p>
-
     </div>
-
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 A Unique Food Supply. All rights reserved.</p>
+        <p>Crafted with <i class="fas fa-heart"></i> for food lovers everywhere</p>
+      </div>
+    </div>
   </footer>
 
   <script src="./js/main.js"></script>
-
 </body>
 </html>
